@@ -1,0 +1,47 @@
+.prediction-display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  margin: 2rem;
+}
+
+.digit-canvas {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border: 2px solid black;
+}
+
+.digit-controls {
+  width: 100%;
+}
+
+.digit-control-btn {
+  height: 3rem;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.digit-control-btn:hover {
+  opacity: 0.8;
+}
+
+.digit-control-btn:active {
+  opacity: 0.9;
+}
+
+.digit-control-btn:focus {
+  outline: 0;
+}
+
+.digit-predict-btn {
+  width: 50%;
+  background-color: #0E346B;
+}
+
+.digit-clear-btn {
+  width: 50%;
+  background-color: #282c34;
+}

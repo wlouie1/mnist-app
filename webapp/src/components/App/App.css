@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.app-title {
+  font-size: 5rem;
+  margin-top: 3rem;
+}
+
+.app-h-divider {
+  margin-top: 1rem;
+  width: 60%;
+  position: relative;
+}
+
+.app-h-divider .app-shadow {
+  overflow: hidden;
+  height: 20px;
+}
+
+.app-h-divider .app-shadow:after {
+  content: '';
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px/12px;
+  box-shadow: 0 0 8px black;
+}

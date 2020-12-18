@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  tfserver:
+    image: wlouie1/mnist-tf-serve
+    ports:
+      - '8501:8501'
+  flaskserver:
+    image: wlouie1/mnist-flask-serve
+    ports:
+      - '5000:5000'
+    depends_on:
+      - tfserver
+  web:
+    image: wlouie1/mnist-app
+    ports:
+      - '80:80'
+    depends_on:
+      - flaskserver

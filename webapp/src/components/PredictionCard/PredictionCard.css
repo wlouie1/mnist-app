@@ -1,0 +1,6 @@
+.prediction-card {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: -1px 0 0 -1px;
+}

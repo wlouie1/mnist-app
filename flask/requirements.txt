@@ -1,0 +1,5 @@
+numpy
+Pillow
+flask
+requests
+gunicorn
